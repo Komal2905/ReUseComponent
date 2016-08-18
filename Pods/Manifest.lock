@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (3.4.1)
+  - AlamofireImage (2.4.1):
+    - Alamofire (~> 3.3)
+  - DropDown (1.0.1)
+  - Gifu (1.2.1)
+  - ImageSlideshow (0.5.0):
+    - ImageSlideshow/Core (= 0.5.0)
+  - ImageSlideshow/Alamofire (0.5.0):
+    - AlamofireImage (~> 2.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (0.5.0)
+  - imglyKit (2.4.1)
+  - PagingMenuController (1.1.2)
+  - SideMenu (1.1.9)
+
+DEPENDENCIES:
+  - DropDown
+  - Gifu
+  - ImageSlideshow (~> 0.4)
+  - ImageSlideshow/Alamofire
+  - imglyKit (~> 2.4)
+  - PagingMenuController
+  - SideMenu
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  AlamofireImage: 3ccf3347d9ea24580dc11fb892770a0be6a29826
+  DropDown: 335df9e9547e97a861a60aed8448821e239d3513
+  Gifu: 0eab1ca24a4adbd949338bcb71a8556748cb2d28
+  ImageSlideshow: b2662127d093a42d9595a6b40af2817d064df251
+  imglyKit: f30ce863024e3d711520e422197711dc42f8c1e3
+  PagingMenuController: a47a9669760b95f630cc3ef28bdce104f9107d14
+  SideMenu: e4ecb0f1061e19230e53079edb2b300081446f80
+
+COCOAPODS: 0.39.0
