@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9A01B00256F45A2B55DE0AD4'
+               BlueprintIdentifier = '8C7F38B05B4370234459B829'
                BlueprintName = 'imglyKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'imglyKit.framework'>

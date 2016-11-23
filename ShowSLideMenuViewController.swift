@@ -9,6 +9,8 @@
 import UIKit
 import PagingMenuController
 
+// Print("For View which has container")
+
 class ShowSLideMenuViewController: UIViewController {
     var options: PagingMenuControllerCustomizable!
 

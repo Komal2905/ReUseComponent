@@ -11,8 +11,11 @@ PODS:
     - ImageSlideshow/Core
   - ImageSlideshow/Core (0.5.0)
   - imglyKit (2.4.1)
+  - Material (1.42.9)
+  - MaterialKit (0.4)
   - PagingMenuController (1.1.2)
   - SideMenu (1.1.9)
+  - SpeechKit (2.1.7)
 
 DEPENDENCIES:
   - DropDown
@@ -20,8 +23,11 @@ DEPENDENCIES:
   - ImageSlideshow (~> 0.4)
   - ImageSlideshow/Alamofire
   - imglyKit (~> 2.4)
+  - Material (~> 1.0)
+  - MaterialKit (~> 0.4)
   - PagingMenuController
   - SideMenu
+  - SpeechKit
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
@@ -30,7 +36,10 @@ SPEC CHECKSUMS:
   Gifu: 0eab1ca24a4adbd949338bcb71a8556748cb2d28
   ImageSlideshow: b2662127d093a42d9595a6b40af2817d064df251
   imglyKit: f30ce863024e3d711520e422197711dc42f8c1e3
+  Material: a84ed893b7785f0d3c8d568e88c055f82b436473
+  MaterialKit: 2e5267bcf410b82793f2b92d2111f8ae4ed2c3f2
   PagingMenuController: a47a9669760b95f630cc3ef28bdce104f9107d14
   SideMenu: e4ecb0f1061e19230e53079edb2b300081446f80
+  SpeechKit: 62717350ae29e7002a8ac35970ce92dccf2d1b71
 
 COCOAPODS: 0.39.0

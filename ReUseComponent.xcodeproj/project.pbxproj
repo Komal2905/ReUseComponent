@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		07D5D0543676D19F1855A700 /* Pods_ReUseComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30FBE21E3A3666940874CDE /* Pods_ReUseComponent.framework */; };
+		99002AEA1D79403300801C91 /* ImageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99002AE91D79403300801C91 /* ImageDemo.swift */; };
+		99002AEC1D7941FB00801C91 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 99002AEB1D7941FB00801C91 /* 1.png */; };
 		991346601D5B040D00F920B5 /* Menu4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9913465F1D5B040D00F920B5 /* Menu4ViewController.swift */; };
 		991346621D5B074600F920B5 /* SlidingMenuFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991346611D5B074600F920B5 /* SlidingMenuFirstViewController.swift */; };
 		991346651D5B304B00F920B5 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991346641D5B304B00F920B5 /* Util.swift */; };
@@ -18,6 +20,11 @@
 		992759CD1D5C480A000AE295 /* ImageEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992759CC1D5C480A000AE295 /* ImageEditingViewController.swift */; };
 		992759CF1D5C93D1000AE295 /* SocialSharingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992759CE1D5C93D1000AE295 /* SocialSharingViewController.swift */; };
 		992759D11D5CA71E000AE295 /* SeachTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992759D01D5CA71E000AE295 /* SeachTableViewViewController.swift */; };
+		9928CD381D8BB6FC003733E7 /* ScrollingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9928CD371D8BB6FC003733E7 /* ScrollingViewController.swift */; };
+		9928CD3B1D8BED41003733E7 /* ScrollCellOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9928CD3A1D8BED41003733E7 /* ScrollCellOne.xib */; };
+		9928CD3D1D8BED69003733E7 /* ScrollCellTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9928CD3C1D8BED69003733E7 /* ScrollCellTwo.xib */; };
+		9928CD3F1D8BEEAA003733E7 /* ScrollCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9928CD3E1D8BEEAA003733E7 /* ScrollCellCollectionViewCell.swift */; };
+		9928CD421D8C1E43003733E7 /* ScrolInsideViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9928CD411D8C1E43003733E7 /* ScrolInsideViewTableViewCell.swift */; };
 		994D2BE61D62D866003E3DCF /* ImageWithBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D2BE51D62D866003E3DCF /* ImageWithBackgroundViewController.swift */; };
 		994D2BE81D62DAF8003E3DCF /* ImageAsBGCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D2BE71D62DAF8003E3DCF /* ImageAsBGCollectionViewCell.swift */; };
 		994D2BEA1D62F7E0003E3DCF /* ShowContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994D2BE91D62F7E0003E3DCF /* ShowContactsViewController.swift */; };
@@ -39,6 +46,13 @@
 		99EA7BCD1D5A1A28006AA5C6 /* Menu2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EA7BCC1D5A1A28006AA5C6 /* Menu2ViewController.swift */; };
 		99EA7BCF1D5A1A35006AA5C6 /* Menu3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EA7BCE1D5A1A35006AA5C6 /* Menu3ViewController.swift */; };
 		99EA7BD21D5A1BAE006AA5C6 /* PagingMenuControllerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EA7BD11D5A1BAE006AA5C6 /* PagingMenuControllerOptions.swift */; };
+		99F094851D6AD00B004D1501 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F094841D6AD00B004D1501 /* AudioToolbox.framework */; };
+		99F094871D6AD011004D1501 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F094861D6AD011004D1501 /* AVFoundation.framework */; };
+		99F0948C1D6AD05E004D1501 /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 99F094891D6AD05E004D1501 /* AcousticModelEnglish.bundle */; };
+		99F0948D1D6AD05E004D1501 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F0948A1D6AD05E004D1501 /* OpenEars.framework */; };
+		99F0948E1D6AD05E004D1501 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F0948B1D6AD05E004D1501 /* Slt.framework */; };
+		99F094911D6AD4AC004D1501 /* VoiceAssistantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F094901D6AD4AC004D1501 /* VoiceAssistantViewController.swift */; };
+		99F094931D6AD979004D1501 /* NuanceHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F094921D6AD979004D1501 /* NuanceHeader.m */; };
 		99F1F6341D642BA6007A322B /* SpeechToTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F1F6331D642BA6007A322B /* SpeechToTextViewController.swift */; };
 		99F1F6381D642BC0007A322B /* SpeechToTextModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F1F6371D642BC0007A322B /* SpeechToTextModule.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		99F1F63A1D642D9E007A322B /* recording_animate.gif in Resources */ = {isa = PBXBuildFile; fileRef = 99F1F6391D642D9E007A322B /* recording_animate.gif */; };
@@ -50,6 +64,17 @@
 		99F1F6491D645A2B007A322B /* nailed.gif in Resources */ = {isa = PBXBuildFile; fileRef = 99F1F6481D645A2B007A322B /* nailed.gif */; };
 		99F1F64C1D647B45007A322B /* ShowAccelometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F1F64B1D647B45007A322B /* ShowAccelometerViewController.swift */; };
 		99F1F64E1D649815007A322B /* ShowGifBgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F1F64D1D649815007A322B /* ShowGifBgViewController.swift */; };
+		99F324C91D657A8E00B6CE27 /* ImageSlider.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F324C81D657A8E00B6CE27 /* ImageSlider.storyboard */; };
+		99F324CC1D657B8400B6CE27 /* ImageSliderMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F324CB1D657B8400B6CE27 /* ImageSliderMainViewController.swift */; };
+		99F324CE1D657D9B00B6CE27 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F324CD1D657D9B00B6CE27 /* PageViewController.swift */; };
+		99F324D01D657E2700B6CE27 /* FirstViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F324CF1D657E2700B6CE27 /* FirstViewViewController.swift */; };
+		99F324D21D657E3700B6CE27 /* SecondViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F324D11D657E3700B6CE27 /* SecondViewViewController.swift */; };
+		99F324D41D657E4B00B6CE27 /* ThirdViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F324D31D657E4B00B6CE27 /* ThirdViewViewController.swift */; };
+		99F324D61D6599DF00B6CE27 /* ImageScrollPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F324D51D6599DF00B6CE27 /* ImageScrollPageViewController.swift */; };
+		99F324D81D659A8300B6CE27 /* ManagePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F324D71D659A8300B6CE27 /* ManagePageViewController.swift */; };
+		99F34F321D66FA0300BCB741 /* MenuViewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F34F311D66FA0300BCB741 /* MenuViewItemViewController.swift */; };
+		99F34F341D67024800BCB741 /* MultiProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F34F331D67024800BCB741 /* MultiProductViewController.swift */; };
+		99F34F361D67074F00BCB741 /* MultiProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F34F351D67074F00BCB741 /* MultiProductCollectionViewCell.swift */; };
 		99F4854B1D5DA01B00AC52EF /* SideBarMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F4854A1D5DA01B00AC52EF /* SideBarMenuViewController.swift */; };
 		99F4854D1D5DAA3600AC52EF /* leftMenuSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F4854C1D5DAA3600AC52EF /* leftMenuSideViewController.swift */; };
 		99F4854F1D5DAA4300AC52EF /* RightMenuSideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F4854E1D5DAA4300AC52EF /* RightMenuSideViewController.swift */; };
@@ -58,11 +83,18 @@
 		99F485551D5DC6C700AC52EF /* SelectAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F485541D5DC6C700AC52EF /* SelectAudioViewController.swift */; };
 		99F485571D5DC81B00AC52EF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F485561D5DC81B00AC52EF /* MediaPlayer.framework */; };
 		99F485591D5DFB4B00AC52EF /* IntegrateWebBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F485581D5DFB4B00AC52EF /* IntegrateWebBrowserViewController.swift */; };
+		99F662821D6723440007BBF7 /* Localization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99F662811D6723440007BBF7 /* Localization.storyboard */; };
+		99F662841D6723B00007BBF7 /* LocalizationStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F662831D6723B00007BBF7 /* LocalizationStringViewController.swift */; };
+		99F8ACCE1D65EFB600B7643B /* ShowMaterialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F8ACCD1D65EFB600B7643B /* ShowMaterialViewController.swift */; };
+		99FCB2C01D688CAF00A7E138 /* BackGroundProccessSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FCB2BF1D688CAF00A7E138 /* BackGroundProccessSongViewController.swift */; };
+		99FCB2C21D688CFD00A7E138 /* ChristmasRap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 99FCB2C11D688CFD00A7E138 /* ChristmasRap.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07A3FCCB2040B1FFC99C6786 /* Pods-ReUseComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReUseComponent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReUseComponent/Pods-ReUseComponent.debug.xcconfig"; sourceTree = "<group>"; };
 		62E5A2E3E8B9A9EC4E71CE4B /* Pods-ReUseComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReUseComponent.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReUseComponent/Pods-ReUseComponent.release.xcconfig"; sourceTree = "<group>"; };
+		99002AE91D79403300801C91 /* ImageDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDemo.swift; sourceTree = "<group>"; };
+		99002AEB1D7941FB00801C91 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		9913465F1D5B040D00F920B5 /* Menu4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu4ViewController.swift; sourceTree = "<group>"; };
 		991346611D5B074600F920B5 /* SlidingMenuFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingMenuFirstViewController.swift; sourceTree = "<group>"; };
 		991346641D5B304B00F920B5 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
@@ -73,6 +105,11 @@
 		992759CC1D5C480A000AE295 /* ImageEditingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageEditingViewController.swift; sourceTree = "<group>"; };
 		992759CE1D5C93D1000AE295 /* SocialSharingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialSharingViewController.swift; sourceTree = "<group>"; };
 		992759D01D5CA71E000AE295 /* SeachTableViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeachTableViewViewController.swift; sourceTree = "<group>"; };
+		9928CD371D8BB6FC003733E7 /* ScrollingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingViewController.swift; sourceTree = "<group>"; };
+		9928CD3A1D8BED41003733E7 /* ScrollCellOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollCellOne.xib; sourceTree = "<group>"; };
+		9928CD3C1D8BED69003733E7 /* ScrollCellTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollCellTwo.xib; sourceTree = "<group>"; };
+		9928CD3E1D8BEEAA003733E7 /* ScrollCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		9928CD411D8C1E43003733E7 /* ScrolInsideViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrolInsideViewTableViewCell.swift; sourceTree = "<group>"; };
 		994D2BE51D62D866003E3DCF /* ImageWithBackgroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageWithBackgroundViewController.swift; sourceTree = "<group>"; };
 		994D2BE71D62DAF8003E3DCF /* ImageAsBGCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAsBGCollectionViewCell.swift; sourceTree = "<group>"; };
 		994D2BE91D62F7E0003E3DCF /* ShowContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowContactsViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +133,14 @@
 		99EA7BCC1D5A1A28006AA5C6 /* Menu2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu2ViewController.swift; sourceTree = "<group>"; };
 		99EA7BCE1D5A1A35006AA5C6 /* Menu3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu3ViewController.swift; sourceTree = "<group>"; };
 		99EA7BD11D5A1BAE006AA5C6 /* PagingMenuControllerOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingMenuControllerOptions.swift; sourceTree = "<group>"; };
+		99F094841D6AD00B004D1501 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		99F094861D6AD011004D1501 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		99F094891D6AD05E004D1501 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		99F0948A1D6AD05E004D1501 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		99F0948B1D6AD05E004D1501 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		99F094901D6AD4AC004D1501 /* VoiceAssistantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoiceAssistantViewController.swift; sourceTree = "<group>"; };
+		99F094921D6AD979004D1501 /* NuanceHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NuanceHeader.m; sourceTree = "<group>"; };
+		99F094941D6AD988004D1501 /* NuanceHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NuanceHeader.h; sourceTree = "<group>"; };
 		99F1F6331D642BA6007A322B /* SpeechToTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechToTextViewController.swift; sourceTree = "<group>"; };
 		99F1F6351D642BC0007A322B /* ReUseComponent-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReUseComponent-Bridging-Header.h"; sourceTree = "<group>"; };
 		99F1F6361D642BC0007A322B /* SpeechToTextModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeechToTextModule.h; path = ../SPecch/SpeechToTextModule.h; sourceTree = "<group>"; };
@@ -110,6 +155,17 @@
 		99F1F6481D645A2B007A322B /* nailed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nailed.gif; sourceTree = "<group>"; };
 		99F1F64B1D647B45007A322B /* ShowAccelometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAccelometerViewController.swift; sourceTree = "<group>"; };
 		99F1F64D1D649815007A322B /* ShowGifBgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowGifBgViewController.swift; sourceTree = "<group>"; };
+		99F324C81D657A8E00B6CE27 /* ImageSlider.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ImageSlider.storyboard; sourceTree = "<group>"; };
+		99F324CB1D657B8400B6CE27 /* ImageSliderMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSliderMainViewController.swift; sourceTree = "<group>"; };
+		99F324CD1D657D9B00B6CE27 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		99F324CF1D657E2700B6CE27 /* FirstViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewViewController.swift; sourceTree = "<group>"; };
+		99F324D11D657E3700B6CE27 /* SecondViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewViewController.swift; sourceTree = "<group>"; };
+		99F324D31D657E4B00B6CE27 /* ThirdViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewViewController.swift; sourceTree = "<group>"; };
+		99F324D51D6599DF00B6CE27 /* ImageScrollPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageScrollPageViewController.swift; sourceTree = "<group>"; };
+		99F324D71D659A8300B6CE27 /* ManagePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagePageViewController.swift; sourceTree = "<group>"; };
+		99F34F311D66FA0300BCB741 /* MenuViewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewItemViewController.swift; sourceTree = "<group>"; };
+		99F34F331D67024800BCB741 /* MultiProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiProductViewController.swift; sourceTree = "<group>"; };
+		99F34F351D67074F00BCB741 /* MultiProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		99F4854A1D5DA01B00AC52EF /* SideBarMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarMenuViewController.swift; sourceTree = "<group>"; };
 		99F4854C1D5DAA3600AC52EF /* leftMenuSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leftMenuSideViewController.swift; sourceTree = "<group>"; };
 		99F4854E1D5DAA4300AC52EF /* RightMenuSideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuSideViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +174,11 @@
 		99F485541D5DC6C700AC52EF /* SelectAudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectAudioViewController.swift; sourceTree = "<group>"; };
 		99F485561D5DC81B00AC52EF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		99F485581D5DFB4B00AC52EF /* IntegrateWebBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrateWebBrowserViewController.swift; sourceTree = "<group>"; };
+		99F662811D6723440007BBF7 /* Localization.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Localization.storyboard; sourceTree = "<group>"; };
+		99F662831D6723B00007BBF7 /* LocalizationStringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationStringViewController.swift; sourceTree = "<group>"; };
+		99F8ACCD1D65EFB600B7643B /* ShowMaterialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowMaterialViewController.swift; sourceTree = "<group>"; };
+		99FCB2BF1D688CAF00A7E138 /* BackGroundProccessSongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackGroundProccessSongViewController.swift; sourceTree = "<group>"; };
+		99FCB2C11D688CFD00A7E138 /* ChristmasRap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChristmasRap.mp3; sourceTree = "<group>"; };
 		E30FBE21E3A3666940874CDE /* Pods_ReUseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReUseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -126,9 +187,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F094871D6AD011004D1501 /* AVFoundation.framework in Frameworks */,
+				99F0948E1D6AD05E004D1501 /* Slt.framework in Frameworks */,
+				99F094851D6AD00B004D1501 /* AudioToolbox.framework in Frameworks */,
 				99F485571D5DC81B00AC52EF /* MediaPlayer.framework in Frameworks */,
 				07D5D0543676D19F1855A700 /* Pods_ReUseComponent.framework in Frameworks */,
 				99F1F63E1D643529007A322B /* Speex.framework in Frameworks */,
+				99F0948D1D6AD05E004D1501 /* OpenEars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +212,8 @@
 		326022C552CD249FF8791DD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				99F094861D6AD011004D1501 /* AVFoundation.framework */,
+				99F094841D6AD00B004D1501 /* AudioToolbox.framework */,
 				99F1F63D1D643529007A322B /* Speex.framework */,
 				99F485561D5DC81B00AC52EF /* MediaPlayer.framework */,
 				E30FBE21E3A3666940874CDE /* Pods_ReUseComponent.framework */,
@@ -166,15 +233,36 @@
 		991346681D5B42C600F920B5 /* CollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				9928CD391D8BED09003733E7 /* CellXIB */,
 				991346691D5B42F600F920B5 /* GridResultCollectionViewCell.swift */,
 				994D2BE71D62DAF8003E3DCF /* ImageAsBGCollectionViewCell.swift */,
+				99F34F351D67074F00BCB741 /* MultiProductCollectionViewCell.swift */,
 			);
 			name = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		9928CD391D8BED09003733E7 /* CellXIB */ = {
+			isa = PBXGroup;
+			children = (
+				9928CD3A1D8BED41003733E7 /* ScrollCellOne.xib */,
+				9928CD3C1D8BED69003733E7 /* ScrollCellTwo.xib */,
+				9928CD3E1D8BEEAA003733E7 /* ScrollCellCollectionViewCell.swift */,
+			);
+			name = CellXIB;
+			sourceTree = "<group>";
+		};
+		9928CD401D8C1E11003733E7 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9928CD411D8C1E43003733E7 /* ScrolInsideViewTableViewCell.swift */,
+			);
+			name = TableViewCell;
 			sourceTree = "<group>";
 		};
 		99AE50D41D631DBD00646042 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				99FCB2C11D688CFD00A7E138 /* ChristmasRap.mp3 */,
 				99AE50D51D63208800646042 /* FreshAir.mp3 */,
 			);
 			name = Audio;
@@ -183,6 +271,7 @@
 		99EA7B9E1D59DD1A006AA5C6 = {
 			isa = PBXGroup;
 			children = (
+				9928CD401D8C1E11003733E7 /* TableViewCell */,
 				99AE50D71D6325A800646042 /* FreshAir.mp3 */,
 				991346681D5B42C600F920B5 /* CollectionViewCell */,
 				991346631D5B303A00F920B5 /* Util */,
@@ -208,12 +297,15 @@
 				99EA7BAA1D59DD1B006AA5C6 /* AppDelegate.swift */,
 				99EA7BAC1D59DD1B006AA5C6 /* ViewController.swift */,
 				99EA7BAE1D59DD1B006AA5C6 /* Main.storyboard */,
+				99F324C81D657A8E00B6CE27 /* ImageSlider.storyboard */,
 				992759CA1D5C47EC000AE295 /* SideMenu.storyboard */,
 				99F485521D5DC69000AC52EF /* Media.storyboard */,
 				99EA7BB41D59DD1B006AA5C6 /* Assets.xcassets */,
 				99EA7BB61D59DD1B006AA5C6 /* LaunchScreen.storyboard */,
 				99EA7BB91D59DD1B006AA5C6 /* Info.plist */,
 				99EA7BB11D59DD1B006AA5C6 /* ReUseComponent.xcdatamodeld */,
+				99F662811D6723440007BBF7 /* Localization.storyboard */,
+				99F094881D6AD05E004D1501 /* Framework */,
 			);
 			path = ReUseComponent;
 			sourceTree = "<group>";
@@ -221,6 +313,9 @@
 		99EA7BBF1D59DF28006AA5C6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				99F0948F1D6AD491004D1501 /* Sppech */,
+				99F662B51D6748F60007BBF7 /* TimeLine View */,
+				99F324CA1D657B6700B6CE27 /* ImageSLiderExample */,
 				99F1F6321D642B8D007A322B /* SpeechToText */,
 				99EA7BD01D5A1B7E006AA5C6 /* paginDatasource */,
 				99EA7BC01D59DF47006AA5C6 /* PullNotificationViewController.swift */,
@@ -248,6 +343,14 @@
 				99F1F6441D645687007A322B /* PlayGifImageViewController.swift */,
 				99F1F64B1D647B45007A322B /* ShowAccelometerViewController.swift */,
 				99F1F64D1D649815007A322B /* ShowGifBgViewController.swift */,
+				99F8ACCD1D65EFB600B7643B /* ShowMaterialViewController.swift */,
+				99F34F311D66FA0300BCB741 /* MenuViewItemViewController.swift */,
+				99F34F331D67024800BCB741 /* MultiProductViewController.swift */,
+				99F662831D6723B00007BBF7 /* LocalizationStringViewController.swift */,
+				99FCB2BF1D688CAF00A7E138 /* BackGroundProccessSongViewController.swift */,
+				99002AEB1D7941FB00801C91 /* 1.png */,
+				99002AE91D79403300801C91 /* ImageDemo.swift */,
+				9928CD371D8BB6FC003733E7 /* ScrollingViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -260,6 +363,26 @@
 				9913466B1D5B6B0100F920B5 /* TextToSpeechViewController.swift */,
 			);
 			name = paginDatasource;
+			sourceTree = "<group>";
+		};
+		99F094881D6AD05E004D1501 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				99F094891D6AD05E004D1501 /* AcousticModelEnglish.bundle */,
+				99F0948A1D6AD05E004D1501 /* OpenEars.framework */,
+				99F0948B1D6AD05E004D1501 /* Slt.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		99F0948F1D6AD491004D1501 /* Sppech */ = {
+			isa = PBXGroup;
+			children = (
+				99F094901D6AD4AC004D1501 /* VoiceAssistantViewController.swift */,
+				99F094921D6AD979004D1501 /* NuanceHeader.m */,
+				99F094941D6AD988004D1501 /* NuanceHeader.h */,
+			);
+			name = Sppech;
 			sourceTree = "<group>";
 		};
 		99F1F6321D642B8D007A322B /* SpeechToText */ = {
@@ -277,6 +400,27 @@
 				99F1F63F1D64488B007A322B /* GifImage.swift */,
 			);
 			name = SpeechToText;
+			sourceTree = "<group>";
+		};
+		99F324CA1D657B6700B6CE27 /* ImageSLiderExample */ = {
+			isa = PBXGroup;
+			children = (
+				99F324CB1D657B8400B6CE27 /* ImageSliderMainViewController.swift */,
+				99F324CD1D657D9B00B6CE27 /* PageViewController.swift */,
+				99F324CF1D657E2700B6CE27 /* FirstViewViewController.swift */,
+				99F324D11D657E3700B6CE27 /* SecondViewViewController.swift */,
+				99F324D31D657E4B00B6CE27 /* ThirdViewViewController.swift */,
+				99F324D51D6599DF00B6CE27 /* ImageScrollPageViewController.swift */,
+				99F324D71D659A8300B6CE27 /* ManagePageViewController.swift */,
+			);
+			name = ImageSLiderExample;
+			sourceTree = "<group>";
+		};
+		99F662B51D6748F60007BBF7 /* TimeLine View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "TimeLine View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,16 +489,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F324C91D657A8E00B6CE27 /* ImageSlider.storyboard in Resources */,
+				99FCB2C21D688CFD00A7E138 /* ChristmasRap.mp3 in Resources */,
 				992759CB1D5C47EC000AE295 /* SideMenu.storyboard in Resources */,
+				9928CD3B1D8BED41003733E7 /* ScrollCellOne.xib in Resources */,
 				99F1F6491D645A2B007A322B /* nailed.gif in Resources */,
 				99F485531D5DC69000AC52EF /* Media.storyboard in Resources */,
 				99F1F6471D645A20007A322B /* mugen.gif in Resources */,
 				99EA7BB81D59DD1B006AA5C6 /* LaunchScreen.storyboard in Resources */,
 				99AE50D61D63208800646042 /* FreshAir.mp3 in Resources */,
+				99F662821D6723440007BBF7 /* Localization.storyboard in Resources */,
+				99002AEC1D7941FB00801C91 /* 1.png in Resources */,
+				9928CD3D1D8BED69003733E7 /* ScrollCellTwo.xib in Resources */,
 				99F1F63A1D642D9E007A322B /* recording_animate.gif in Resources */,
 				99EA7BB51D59DD1B006AA5C6 /* Assets.xcassets in Resources */,
 				99AE50D81D6325A800646042 /* FreshAir.mp3 in Resources */,
 				99EA7BB01D59DD1B006AA5C6 /* Main.storyboard in Resources */,
+				99F0948C1D6AD05E004D1501 /* AcousticModelEnglish.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,12 +567,19 @@
 				994D2BE61D62D866003E3DCF /* ImageWithBackgroundViewController.swift in Sources */,
 				99EA7BAD1D59DD1B006AA5C6 /* ViewController.swift in Sources */,
 				9913466A1D5B42F600F920B5 /* GridResultCollectionViewCell.swift in Sources */,
+				99F34F361D67074F00BCB741 /* MultiProductCollectionViewCell.swift in Sources */,
+				99F324D01D657E2700B6CE27 /* FirstViewViewController.swift in Sources */,
+				99F324D81D659A8300B6CE27 /* ManagePageViewController.swift in Sources */,
 				99EA7BD21D5A1BAE006AA5C6 /* PagingMenuControllerOptions.swift in Sources */,
+				9928CD381D8BB6FC003733E7 /* ScrollingViewController.swift in Sources */,
 				99EA7BB31D59DD1B006AA5C6 /* ReUseComponent.xcdatamodeld in Sources */,
+				99002AEA1D79403300801C91 /* ImageDemo.swift in Sources */,
 				99EA7BCD1D5A1A28006AA5C6 /* Menu2ViewController.swift in Sources */,
 				992759CD1D5C480A000AE295 /* ImageEditingViewController.swift in Sources */,
 				99F4854B1D5DA01B00AC52EF /* SideBarMenuViewController.swift in Sources */,
 				99F485551D5DC6C700AC52EF /* SelectAudioViewController.swift in Sources */,
+				99F094911D6AD4AC004D1501 /* VoiceAssistantViewController.swift in Sources */,
+				99F324D41D657E4B00B6CE27 /* ThirdViewViewController.swift in Sources */,
 				99EA7BC51D59F173006AA5C6 /* ImageSliderHomeViewController.swift in Sources */,
 				994D2BEA1D62F7E0003E3DCF /* ShowContactsViewController.swift in Sources */,
 				99EA7BC31D59E3CB006AA5C6 /* MenuTableTableViewController.swift in Sources */,
@@ -431,24 +589,36 @@
 				99F485591D5DFB4B00AC52EF /* IntegrateWebBrowserViewController.swift in Sources */,
 				991346671D5B36F100F920B5 /* GridViewViewController.swift in Sources */,
 				991346651D5B304B00F920B5 /* Util.swift in Sources */,
+				99F324D21D657E3700B6CE27 /* SecondViewViewController.swift in Sources */,
 				99EA7BC11D59DF47006AA5C6 /* PullNotificationViewController.swift in Sources */,
 				99F4854D1D5DAA3600AC52EF /* leftMenuSideViewController.swift in Sources */,
 				992759D11D5CA71E000AE295 /* SeachTableViewViewController.swift in Sources */,
 				99F1F6341D642BA6007A322B /* SpeechToTextViewController.swift in Sources */,
 				99EA7BC91D5A16F5006AA5C6 /* ShowSLideMenuViewController.swift in Sources */,
+				99FCB2C01D688CAF00A7E138 /* BackGroundProccessSongViewController.swift in Sources */,
+				9928CD421D8C1E43003733E7 /* ScrolInsideViewTableViewCell.swift in Sources */,
+				99F662841D6723B00007BBF7 /* LocalizationStringViewController.swift in Sources */,
 				994D2BE81D62DAF8003E3DCF /* ImageAsBGCollectionViewCell.swift in Sources */,
 				99AE50DA1D634F5900646042 /* MotionViewController.swift in Sources */,
 				9913466C1D5B6B0100F920B5 /* TextToSpeechViewController.swift in Sources */,
 				99EA7BCF1D5A1A35006AA5C6 /* Menu3ViewController.swift in Sources */,
 				991346601D5B040D00F920B5 /* Menu4ViewController.swift in Sources */,
+				99F094931D6AD979004D1501 /* NuanceHeader.m in Sources */,
+				99F324CC1D657B8400B6CE27 /* ImageSliderMainViewController.swift in Sources */,
 				99F1F64C1D647B45007A322B /* ShowAccelometerViewController.swift in Sources */,
 				99F1F64E1D649815007A322B /* ShowGifBgViewController.swift in Sources */,
+				99F324CE1D657D9B00B6CE27 /* PageViewController.swift in Sources */,
 				99EA7BAB1D59DD1B006AA5C6 /* AppDelegate.swift in Sources */,
 				99F1F6401D64488B007A322B /* GifImage.swift in Sources */,
+				99F8ACCE1D65EFB600B7643B /* ShowMaterialViewController.swift in Sources */,
 				99F1F6451D645687007A322B /* PlayGifImageViewController.swift in Sources */,
+				9928CD3F1D8BEEAA003733E7 /* ScrollCellCollectionViewCell.swift in Sources */,
 				99EA7BCB1D5A1A1A006AA5C6 /* Menu1ViewController.swift in Sources */,
 				99F1F6381D642BC0007A322B /* SpeechToTextModule.m in Sources */,
+				99F324D61D6599DF00B6CE27 /* ImageScrollPageViewController.swift in Sources */,
 				992759CF1D5C93D1000AE295 /* SocialSharingViewController.swift in Sources */,
+				99F34F341D67024800BCB741 /* MultiProductViewController.swift in Sources */,
+				99F34F321D66FA0300BCB741 /* MenuViewItemViewController.swift in Sources */,
 				99F485511D5DAE7800AC52EF /* PresentedViewController.swift in Sources */,
 				991346621D5B074600F920B5 /* SlidingMenuFirstViewController.swift in Sources */,
 			);
@@ -572,6 +742,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ReUseComponent/Framework",
 				);
 				INFOPLIST_FILE = ReUseComponent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -593,6 +764,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ReUseComponent/Framework",
 				);
 				INFOPLIST_FILE = ReUseComponent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

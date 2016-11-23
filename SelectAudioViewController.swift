@@ -82,12 +82,7 @@ class SelectAudioViewController: UIViewController,UIImagePickerControllerDelegat
         
         
         
-        
-        
-        if !playing
-        {
-        }
-        
+       
         artImageView.alpha = 0
         toggeleButton.alpha = 0
         

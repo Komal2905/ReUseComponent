@@ -76,6 +76,10 @@ class SeachTableViewViewController: UIViewController,UITableViewDelegate,UITable
         tableViewSearch.tableHeaderView = searchController.searchBar
         
         
+        
+        
+        
+        //** this is FOr FropDown Custome
         searchTextField.delegate = self
         
        // setupChooseCarBrandDropDown()
@@ -84,6 +88,16 @@ class SeachTableViewViewController: UIViewController,UITableViewDelegate,UITable
         
         searchTextField.addTarget(self, action: #selector(SeachTableViewViewController.chageTextTapped(_:)), forControlEvents: UIControlEvents.EditingDidBegin)
         searchTextField.addTarget(self, action: #selector(SeachTableViewViewController.chageText(_:)), forControlEvents: UIControlEvents.EditingChanged)
+        
+        
+        
+        
+       //
+        DropDown.appearance().textColor = UIColor.blackColor()
+        DropDown.appearance().textFont = UIFont.systemFontOfSize(15)
+        DropDown.appearance().backgroundColor = UIColor.whiteColor()
+        DropDown.appearance().selectionBackgroundColor = UIColor.redColor().colorWithAlphaComponent(0.5)
+        DropDown.appearance().cellHeight = 60
     }
     
     

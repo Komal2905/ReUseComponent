@@ -13,7 +13,7 @@ import imglyKit
 class MenuTableTableViewController: UITableViewController {
     
     
-    var menu = ["Pull Notification","Image Slider","Camera Demo","Sliding Menu","Grid View","Text To Speech","Image Edit","Social Sharing","Search Drop Down","Show Right Side Menu","Play Audio/Video","Web Browser","Image With Backgroung","Show Contacts","Gyro ","Speech To Text","Gif Image","Accelorometer"]
+    var menu = ["Pull Notification","Image Slider","Camera Demo","Sliding Menu","Grid View","Text To Speech","Image Edit","Social Sharing","Search Drop Down","Show Right Side Menu","Play Audio/Video","Web Browser","Image With Backgroung","Show Contacts","Gyro ","Speech To Text","Gif Image","Accelorometer","Flipkart Home Slider","Material View","Multiple product","BackGround Song","Show Cards"]
     
     // For PullTORefresh
     
@@ -185,8 +185,34 @@ class MenuTableTableViewController: UITableViewController {
             performSegueWithIdentifier("showAccelometer", sender: self)
         }
         
+        if(indexPath.row == 18)
+        {
+            performSegueWithIdentifier("showFlipKarSlider", sender: self)
+        }
         
-       
+        
+       if(indexPath.row == 19)
+       {
+            performSegueWithIdentifier("materialShow", sender: self)
+        
+        }
+        
+        
+        if(indexPath.row == 20)
+        {
+            performSegueWithIdentifier("multiProduct", sender: self)
+        }
+        
+        
+        if(indexPath.row == 21)
+        {
+            performSegueWithIdentifier("bgSong", sender: self)
+        }
+        
+        if(indexPath.row == 22)
+        {
+            performSegueWithIdentifier("showScroll", sender: self)
+        }
         
         
         
@@ -341,6 +367,33 @@ class MenuTableTableViewController: UITableViewController {
         {
             segue.destinationViewController as! ShowAccelometerViewController
         }
+        
+        
+        if segue.identifier == "showFlipKarSlider"
+        {
+            segue.destinationViewController as! ImageSliderMainViewController
+        }
+        
+        if segue.identifier == "materialShow"
+        {
+            segue.destinationViewController as! ShowMaterialViewController
+        }
+        if segue.identifier == "multiProduct"
+        {
+            segue.destinationViewController as! MultiProductViewController
+        }
+        
+        if segue.identifier == "bgSong"
+        {
+            segue.destinationViewController as! BackGroundProccessSongViewController
+        }
+        
+        if segue.identifier == "showScroll"
+        {
+            segue.destinationViewController as! ScrollingViewController
+        }
+        
+        
         
         
     }

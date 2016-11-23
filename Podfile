@@ -14,6 +14,11 @@ pod 'SideMenu'
 pod 'Gifu'
 #For Online Payment Integration
 #pod 'PayPal-iOS-SDK'
+pod 'Material', '~> 1.0'
+pod 'MaterialKit', '~> 0.4'
+
+
+pod 'SpeechKit'
 
 
 end

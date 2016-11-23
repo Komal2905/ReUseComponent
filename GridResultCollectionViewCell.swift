@@ -13,6 +13,6 @@ class GridResultCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var halfImageView: UIImageView!
     
-    
+        
     @IBOutlet weak var someLable: UILabel!
 }

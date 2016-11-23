@@ -34,6 +34,26 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Material-io.cosmicmind.material.fonts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Material-io.cosmicmind.material.icons.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Material.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MaterialKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>PagingMenuController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -62,12 +82,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>04693735BCFA74B873DE04047ECC5FBA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>05094CC4A047119F7ADC14EE74C4881C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0C60821390214354B42E5E7353FA30D8</key>
+		<key>08C670F14C5E0F92D52B4FD40051294F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,7 +102,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>14A38925D5F987DA3885E782E9CC33BD</key>
+		<key>1B006392A6DC63E06AC81DE6F08803B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,12 +117,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>73850773DC05DB0F801C716B2A9E95F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>74B5DC06C7DBE8824E3F072B94CC71C2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9F766ADB76A46AB732825D44C4BAAABF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2FF10B109D343910BB2B7BB38A98595</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -112,7 +152,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DB4E39574C19F76E049E675CDBFC23BE</key>
+		<key>F9A5AB6E88F0320B472E035265C8BC45</key>
 		<dict>
 			<key>primary</key>
 			<true/>

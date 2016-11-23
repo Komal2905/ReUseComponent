@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell1" id="eLf-SI-rfU" customClass="ScrollCellCollectionViewCell" customModule="ReUseComponent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="248" height="231"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="248" height="231"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rak-o0-ADG">
+                        <rect key="frame" x="21" y="5" width="206" height="221"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="0.2096528943" green="0.33604236580000002" blue="0.98526635910000004" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="rak-o0-ADG" firstAttribute="width" secondItem="eLf-SI-rfU" secondAttribute="width" multiplier="10:12" id="0Rg-kP-mnx"/>
+                <constraint firstAttribute="bottom" secondItem="rak-o0-ADG" secondAttribute="bottom" constant="5" id="6BX-u1-Pvs"/>
+                <constraint firstAttribute="trailing" secondItem="rak-o0-ADG" secondAttribute="trailing" constant="10" id="H73-hs-Fcu"/>
+                <constraint firstAttribute="trailing" secondItem="rak-o0-ADG" secondAttribute="trailing" constant="5" id="dMj-Zt-Swg"/>
+                <constraint firstItem="rak-o0-ADG" firstAttribute="leading" secondItem="eLf-SI-rfU" secondAttribute="leading" constant="30" id="eQu-qv-31L"/>
+                <constraint firstItem="rak-o0-ADG" firstAttribute="centerX" secondItem="eLf-SI-rfU" secondAttribute="centerX" id="fYY-3i-bar"/>
+                <constraint firstItem="rak-o0-ADG" firstAttribute="top" secondItem="eLf-SI-rfU" secondAttribute="top" constant="5" id="k4o-St-vbl"/>
+                <constraint firstItem="rak-o0-ADG" firstAttribute="leading" secondItem="eLf-SI-rfU" secondAttribute="leading" constant="10" id="qmB-pP-2kT"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="0Rg-kP-mnx"/>
+                    <exclude reference="dMj-Zt-Swg"/>
+                    <exclude reference="eQu-qv-31L"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="view1" destination="rak-o0-ADG" id="Ldu-i1-3KK"/>
+            </connections>
+            <point key="canvasLocation" x="149" y="267"/>
+        </collectionViewCell>
+    </objects>
+</document>

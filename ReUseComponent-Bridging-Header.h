@@ -10,3 +10,10 @@
 
 
 #import "SpeechToTextModule.h"
+
+#import <Slt/Slt.h>
+#import <OpenEars/OEFliteController.h>
+
+#import <SpeechKit/SpeechKit.h>
+#import <SpeechKit/SpeechKit.h>
+#import "NuanceHeader.h"
